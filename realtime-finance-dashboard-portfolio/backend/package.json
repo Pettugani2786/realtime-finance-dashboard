@@ -1,0 +1,14 @@
+{
+  "name": "realtime-finance-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:ws": "node ws-server.js",
+    "start:local": "node local-rest.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "uuid": "^9.0.1"
+  }
+}
